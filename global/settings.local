@@ -1,8 +1,15 @@
 {
+  "model": "gemma4:26b",
   "effortLevel": "max",
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "ollama",
+    "ANTHROPIC_API_KEY": "",
     "ANTHROPIC_BASE_URL": "http://host.docker.internal:11434",
+
+    "ANTHROPIC_CUSTOM_MODEL_OPTION": "nemotron-cascade-2",
+    "ANTHROPIC_CUSTOM_MODEL_OPTION_NAME": "Nemotron Cascade 2",
+    "ANTHROPIC_CUSTOM_MODEL_OPTION_DESCRIPTION": "Local Ollama model",
+
     "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
     "CLAUDE_CODE_SPAWN_BACKEND": "tmux",
     "CLAUDE_CODE_DEBUG": "0",
